@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+body {
+	background-color: black;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 97vh;
+	font-family: inter;
+}
+.card {
+	width: 60%;
+	height: 50%;
+	background-color: rgba(27, 25, 55, 1);
+	color: white;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+.boxleft {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	display: flex;
+}
+
+.title {
+	width: 55%;
+}
+span {
+	color: rgba(171, 92, 219, 1);
+}
+p {
+	margin: 0px;
+	color: gray;
+}
+.text {
+	width: 55%;
+	line-height: 25px;
+}
+.stats {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	margin-top: 3%;
+	width: 55%;
+}
+h2 {
+	margin-bottom: 0px;
+}
+.stat {
+	display: flex;
+	flex-direction: column;
+}
+.boxright {
+	width: 50%;
+	filter: hue-rotate(590deg);
+	background: top / cover url(assets/imagebur.png);
+	border-radius: 0px 10px 10px 0px;
+}
